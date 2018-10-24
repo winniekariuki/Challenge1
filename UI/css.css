@@ -1,0 +1,258 @@
+body{
+	margin:0;
+	padding:0;
+}
+.container{
+display:grid;
+grid-template-rows: 1fr 8fr 1fr;
+grid-gap: 3px;
+height: 100vh;
+
+}
+.header{
+	background-color: #cfe2ec;
+	border: 0px;
+	text-align: center;
+	font-size: 24px;
+
+
+}
+h1{
+	text-align:center;
+	margin:0px 100px 100px;
+}
+.image{
+	text-align: center;
+
+}
+.main{
+	display:grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 3px;
+	border: 0px;
+
+
+}
+.left{
+	border: 1px;
+	background-color: #A9cee1;
+}
+.right{
+	border: 1px;
+	background-color: #a9cee1;
+
+}
+form{
+    
+    background: #4f7197;
+    max-width: 360px;
+    margin:0 auto 50px;
+    padding:50px;
+    text-align:center;
+    height:250px;
+    }
+    
+input{
+    	width:100%;
+    	padding: 12px 20px;
+    	margin: 8px 10px;
+    	border: none;
+    	border-bottom: 2px solid black;
+   	     box-sizing: border-box;
+   	     text-align: :center;
+    }
+    button{
+    background-color: #3fe0d0;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 8px 10px;
+    cursor: pointer;
+    width:100%;
+
+    }
+    h2{
+    	text-align: center;
+    	font-style: Calligrapher;
+    }
+.footer{
+	background-color: #78aecc;
+	border: 1px ;
+	text-align: center;
+
+
+}
+.head{
+	background-color: #cfe2ec;
+	border: 0px;
+	text-align: center;
+	font-size: 24px;
+}
+.body{
+	display:grid;
+	grid-template-columns: 0.5fr 4.5fr 1.5fr;
+	grid-gap: 3px;
+	border: 1px solid;
+}
+.fpart{
+	background-color: #78aecc;
+	border: 0px ;
+	text-align: center;
+}
+.spart{
+	background-color: #78aecc;
+	border: 0px ;
+	text-align: center;
+
+}
+.tpart{
+	background-color: #78aecc;
+	border: 0px ;
+	text-align: center;
+}
+
+.nav input[type=text] {
+    text-align: center;
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 400px;
+    background-color: #39cccc;
+    color: #fcfcfc;
+}
+h1{
+	float:left;
+	margin:20px 0px 10px;
+}
+.logout{
+	width:150px;
+	float:right;
+	margin:20px 0px 20px;
+}
+.button{
+	width:200px;
+}
+.sale{
+	background: #4f7197;
+    max-width: 175px;
+    margin:10px 30px 50px;
+    padding:50px;
+    text-align:center;
+    height:350px;
+}
+table{
+	text-align:center;
+	margin: 20px 50px 50px;
+	background-color:#0074d9;
+
+
+}
+table, th, td {
+   border: 1px solid white;
+}
+td{
+	height:300px;
+	width:450px;
+}
+#add{
+	width:50px;
+	background-color: 001f3f;
+	height:30px;
+}
+#price{
+	width:75px;
+	background-color: 001f3f;
+	height:30px;
+}
+#minimum{
+	width:75px;
+	background-color: 001f3f;
+	height:30px;
+}
+#Quantity{
+	width:75px;
+	background-color: 001f3f;
+	height:30px;
+}
+#modify{
+	width:75px;
+	background-color: 001f3f;
+	height:30px;
+}
+#delete{
+	width:75px;
+	background-color: 001f3f;
+	height:30px;
+
+}
+.Create{
+	background: #4f7197;
+    max-width: 200px;
+    margin:10px 10px 10px;
+    padding:50px;
+    text-align:center;
+    height:350px;
+}
+.menu{
+
+	background-color: #4f7197;
+}
+.table{
+	padding:50px;
+	margin:150px 50px 50px;
+	width:1000px;
+	height:150px;
+	background-color:teal ;
+	border:0px;
+}
+.thead{
+
+	background-color:#00b2ee;
+	border: 0px solid white;
+	height:100px;
+	margin-top: 100px;
+	padding:0px;
+	border-color: black;
+}
+.tdata{
+	background-color: #ccffff;
+	height:50px;
+	padding: 0px;
+	border-color: black;
+}
+h1{
+	text-align: center;
+	margin:10px 500px;
+
+}
+.modify{
+	height:350px;
+}
+.change{
+	width:350px;
+	height:28px;
+}
+.modify input[type=text] {
+    text-align: center;
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 250px;
+    background-color: #39cccc;
+    color: #fcfcfc;
+}
+.creation{
+	height:380px;
+}
+.Add-image input[type=Add Image]{
+	width:150px;
+	height:200px;
+}
+#covh{
+	margin:10px 10px;
+}
