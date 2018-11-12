@@ -2,6 +2,7 @@ document.getElementById('login').addEventListener('submit', login)
 
 let Message = document.getElementById('Message');
 function login(e) {
+    alert()
     e.preventDefault();
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
@@ -19,7 +20,6 @@ function login(e) {
     })
         .then(res => res.json())
         .then((data) => {
-            console.log(data)
             Message.innerHTML = data.message;
             if (data.message == 'You are successfully logged in') {
                 localStorage.setItem('token', data.token);
@@ -29,7 +29,7 @@ function login(e) {
         .catch((err) => console.log(err))
 }
 function getusers(email) {
-    fetch('http://127.0.0.1:5000/api/v2/users', {
+    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/users', {
         mode: 'cors'
     })
         .then((res) => res.json())
