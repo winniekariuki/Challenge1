@@ -3,7 +3,7 @@
 <head>
 <title>Login</title>
 	<link rel="stylesheet" type="text/css"  href="css.css">
-	<script src="main.js"></script>
+	
 </head>
 
 
@@ -26,10 +26,11 @@
 				<div class="right">
 					<h2>Login into account</h2>
 					
-					<form>
-						<div class="Username"><input type="text" placeholder="Username"></div>
-						<div class="Password"><input type="text" placeholder="Password"></div>
-						<div><button type="button"onclick="loginpage()">Login</button></a></div>
+					<form id="login">
+						<p id="Message"></p>
+						<div class="Username"><input id="email" type="email" placeholder="Email"></div>
+						<div class="Password"><input id="password" type="password" placeholder="Password"></div>
+						<div><button type="submit">Login</button></a></div>
 
 						</form>
 					</div>
@@ -40,7 +41,7 @@
 			</div>
 
 
-
+			<script src="login.js"></script>
 
 
 </body>
