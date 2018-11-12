@@ -53,7 +53,7 @@ function deleteProduct(product_id){
     message = 'Do you still want to delete the product?'
     con = confirm(message)
     if (con) {
-        fetch('http://127.0.0.1:5000/api/v2/products/' + product_id, {
+        fetch('https://mystoremanagerapp.herokuapp.com/api/v2/products/' + product_id, {
         method: 'DELETE',
         mode: 'cors',
         })
