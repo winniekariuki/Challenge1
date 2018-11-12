@@ -2,7 +2,7 @@
 <head>
 	<title>Store Attendant</title>
 
-
+	<script src="redirect_attendant.js"></script>
 <link rel="stylesheet" type="text/css"  href="css.css">
 
 </head>
@@ -17,7 +17,12 @@
 		</div>
 		
 	</div>
+	
+	<div id="myModal" class="modal">
+			<div class="modal-body" id="mod">
 
+				</div>
+		</div>
 	<div class="body">
 		<div class="fpart">
 
@@ -36,52 +41,36 @@
 			</div>
 		</div>
 		<div class="spart">
+			<div class="wrapper" id="attendantproducts" >
 				<table>
-				<tr>
-				<td><img src="https://i.pinimg.com/originals/92/88/85/928885213d27cae4bde939b1bb0231cc.jpg "height="150" width="150">
-						<div><button id="add">add</button><button id="price">ksh.100</button></div>
-						<div><button id="Quantity">Qty.650</button><button id="minimum">Min.10</button></div>
+						<tr>
+							
+								<td><img src="https://i.pinimg.com/564x/ba/40/9a/ba409ae8d54c8fffefe1746d0023325b.jpg"height="150" width="150">
+								<div>
+									<button id="info">info</button></div>
 
 
 
-				</td>
-				<td><img src="https://i.pinimg.com/originals/b2/52/6d/b2526deabc674f2f2bf28d8ae86a85ce.jpg" height="150" width="150">
-						<div><button id="add">add</button><button id="price">ksh.500</button></div>
-						<div><button id="Quantity">Qty.450</button><button id="minimum">Min.10</button></div>
-				</td>
-				<td><img src="https://i.pinimg.com/564x/23/25/37/232537d23ab176c28f5b43d8664793f6.jpg"  height="150" width="150">
-						<div><button id="add">add</button><button id="price">ksh.1000</button></div>
-						<div><button id="Quantity">Qty.510</button><button id="minimum">Min.100</button></div>
-				</td>
-				</tr>
-				<tr>
-					<td><img src="https://i.pinimg.com/564x/03/a6/4f/03a64f767e55cae539c9427ce29dc27a.jpg"  height="150" width="150" >
-						<div><button id="add">add</button><button id="price">ksh.1000</button></div>
-						<div><button id="Quantity">Qty.450</button><button id="minimum">Min.45</button></div>
-					</td>
-					<td><img src="https://i.pinimg.com/564x/5e/88/66/5e8866a1db5ab73defffe1bd46e6ba07.jpg" height="150" width="150"  >
-						<div><button id="add">add</button><button id="price">ksh.750</button></div>
-						<div><button id="Quantity">Qty.150</button><button id="minimum">Min.20</button></div>
-					</td>
-					<td><img src="https://i.pinimg.com/564x/cf/d2/53/cfd2537491956b3e975ba4a5447b8a45.jpg"  height="150" width="150"  >
 
-						<div><button id="add">add</button><button id="price">ksh.1000</button></div>
-						<div><button id="Quantity">Qty.50</button><button id="minimum">Min.10</button></div>
-						
-
-					</td>
-
-				</tr>
+									</div>
+									<div><button id="price"></button>
+										<button id="name"></button></div>
+										
+								</td>
+									
+						</tr>
 				
 			</table>
+			</div>
 		</div>
 		<div class="tpart">
-		<form class="Sale">
+		<form class="Sale" id="Record">
 			<h3>Create Sale Records</h3>
-			<div class="Productname"><input type="text" placeholder="Product Name"></div>
-			<div class="Date"><input type="text" placeholder="01/01/2018"></div>
-			<div class="Price"><input type="text" placeholder="Price"></div>
-			<div class="Quantity"><input type="text" placeholder="	Quantity"></div>
+			<p id="message4"></p>
+		
+			<div class="name"><input type="text" id="name1"placeholder="name"></div>
+			<div class="quantity"><input type="text" id="quantity1" placeholder="quantity"></div>
+			
 			<button class="submit">Submit</button>
 
 
@@ -99,5 +88,9 @@
 <p class="copy">&copy; Copyright Covet Fashion 2018</p>
 	</div>
 </div>
+<script src="single_product.js"></script>
+<script src="products.js"></script>
+<script src="create_sale.js"></script>
+
 </body>
 </html>
