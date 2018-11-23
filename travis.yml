@@ -1,0 +1,13 @@
+language: node_js
+
+node_js: node
+
+cache: npm
+
+branches:
+  - gh-pages
+  - /.*/
+script: npm run test
+
+after_success:
+- coveralls < coverage/lcov.info
