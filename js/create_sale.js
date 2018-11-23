@@ -31,7 +31,7 @@ function addSale(e) {
                 console.log(data)
                 message.innerHTML = data.Message ||data.message
                 if (message = 'created successfully') {
-                    
+                    alert('salecreated')
                     
                 }
 
