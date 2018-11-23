@@ -32,11 +32,12 @@ Enables the two to get the sale record.
   <h3>To login as store attendant</h3>
   <p>email:annwamuyu07@gmail.com</p>
   <p>password:Wamuyu07@gmail.com</p>
+  <p>To visit website click  https://winniekariuki.github.io/Challenge1/ </p>
   <h2>Links</h2>
  
     https://mystoremanagerapp.herokuapp.com/
     https://www.pivotaltracker.com/n/projects/2202841
- 
+    https://winniekariuki.github.io/Challenge1/
   
 </div>
 
