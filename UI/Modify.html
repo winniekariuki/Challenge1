@@ -13,12 +13,14 @@
 	<div class="main">
 		<div class="left">
 			<div><h2>Create Product</h2></div>
-			<div><form class="creation">
-				<div class="Add-image"><input type="Add Image" placeholder="Add image"></div>
-				<div class="info"><input type="Price" placeholder="Price"></div>
-				<div class="info"><input type="Quantity" placeholder="Quantity"></div>
-				<div class="info"><input type="Minimum" placeholder="Min.Qty"></div>
-				<div class="make"><button>Create</button></div>
+			<div><form class="creation"id="create">
+					<p id="message"></p>
+				<div ><input type="text" id="name" placeholder="name"></div>
+				<div ><input type="text" id="category"placeholder="category"></div>
+				<div ><input type="text" id="price" placeholder="price"></div>
+				<div ><input type="text" id="quantity" placeholder="Qty"></div>
+				<div  ><input type="text" id="lower_inventory"placeholder="Min.Qty"></div>
+				<div class="make"><button type="submit">Create</button></div>
 
 
 
@@ -30,11 +32,15 @@
 		</div>
 		<div class="right">
 			<div><h2>Modify Product</h2></div>
-			<div><form class="modify">
-				<div><img src="https://i.pinimg.com/236x/47/64/e1/4764e11d82665cacda5227b0b3e36429.jpg" height="80" width="100"/></div>
-				<div><input type="Price" placeholder="Price"><button class="change">Change</button></div>
-				<div><input type="Quantity" placeholder="Quantity"><button class="change">Change</button></div>
-				<div><input type="Minimum" placeholder="Min.Qty"><button class="change">Change</button></div>
+			<div><form class="modify"id="change">
+					<p id="Message2"></p>
+		
+				<div ><input type="name" id="name2" placeholder="name"></div>
+				<div ><input type="category" id="category2"placeholder="category"></div>
+				<div ><input type="price" id="price2" placeholder="price"></div>
+				<div ><input type="quantity" id="quantity2" placeholder="Qty"></div>
+				<div  ><input type="lower_inventory" id="lower_inventory2"placeholder="Min.Qty"></div>
+				<div class="make"><button type="submit">change</button></div>
 
 
 
@@ -48,7 +54,8 @@
 	</div>
 
 	
-
+	<script src="createproduct.js"></script>
+	<script src="modify.js"></script>
 </body>
 
 

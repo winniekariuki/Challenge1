@@ -21,23 +21,14 @@ function getsingleproduct(product_id) {
                     <button id="qty">Qty.${data.Myproducts.quantity}</button>
                     <button id="low">Min.${data.Myproducts.lower_inventory}</button>
                     `;
-            //         // if (data.message == 'Invalid Token!'){
-            //         //     alert('Please login first');
-            //         //     window.location.replace('index.html')
-            //         // }
-            //         // if (data.Message == 'No such product'){
-            //         //     alert('No products are available at the the moment');
-            //         //     window.location.replace('index.html')
-            //         // }
-        
-            // localStorage.setItem('product', JSON.stringify(data.product));
+          
         });
-        // document.getElementById("mod").style.display = "block";
+        
         myModal.style.display="block"
     window.onclick = function (event) {
         if (event.target === myModal || event.target === close) {
             myModal.style.display = "none";
-            // close.style.display = "none";
+            
         }
     
     }
