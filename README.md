@@ -37,7 +37,7 @@ Enables the two to get the sale record.
  
     https://mystoremanagerapp.herokuapp.com/
     https://www.pivotaltracker.com/n/projects/2202841
-    https://winniekariuki.github.io/Challenge1/
+    https://winniekariuki.github.io/Challenge1/UI
   
 </div>
 
