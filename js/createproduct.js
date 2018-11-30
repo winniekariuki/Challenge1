@@ -30,7 +30,7 @@ function addProduct(e) {
                 message.innerHTML = data.message ||data.Message
                 if (message = 'created successfully') {
                     
-                    // window.location.reload()
+              
                 }
 
             });

@@ -1,4 +1,3 @@
-
 document.getElementById('change').addEventListener('submit',modifyProduct)
 function modifyProduct(e) {
     // alert(product_id)

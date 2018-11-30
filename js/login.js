@@ -2,7 +2,6 @@ document.getElementById('login').addEventListener('submit', login)
 
 let Message = document.getElementById('Message');
 function login(e) {
-    alert()
     e.preventDefault();
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
