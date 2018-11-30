@@ -30,8 +30,8 @@ Enables the two to get the sale record.
   <p>email:winniekariuki07@gmail.com</p>
   <p>password:Winnie07@</p>
   <h3>To login as store attendant</h3>
-  <p>email:annwamuyu07@gmail.com</p>
-  <p>password:Wamuyu07@gmail.com</p>
+  <p>email:mary09@gmail.com</p>
+  <p>password:Mary09@</p>
   <p>To visit website click  https://winniekariuki.github.io/Challenge1/UI </p>
   <h2>Links</h2>
  
