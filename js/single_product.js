@@ -1,7 +1,6 @@
 let modal = document.getElementsByClassName("modal")[0];
 let myModal = document.getElementById('myModal');
 
-
 let token = localStorage.getItem('token');
 function getsingleproduct(product_id) {
     console.log(product_id)
