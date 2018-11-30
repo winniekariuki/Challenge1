@@ -8,7 +8,7 @@ function addUser(e) {
     let role = document.getElementById('role').value;
    
     console.log(role)
-        fetch('https://mystoremanagerapp.herokuapp.com/api/v2/auth/signup', {
+        fetch('http://127.0.0.1:5000/api/v2/auth/signup', {
             method: 'POST',
             mode: 'cors',
             headers: {

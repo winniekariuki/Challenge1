@@ -9,7 +9,7 @@ function addSale(e) {
    
    
   
-        fetch('https://mystoremanagerapp.herokuapp.com/api/v2/sales', {
+        fetch('http://127.0.0.1:5000/api/v2/sales', {
             method: 'POST',
             mode: 'cors',
             headers: {

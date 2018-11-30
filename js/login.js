@@ -2,11 +2,10 @@ document.getElementById('login').addEventListener('submit', login)
 
 let Message = document.getElementById('Message');
 function login(e) {
-    alert()
     e.preventDefault();
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
-    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/auth/login', {
+    fetch('http://127.0.0.1:5000/api/v2/auth/login', {
         method: 'POST',
         mode: 'cors',
         headers: {
@@ -29,7 +28,7 @@ function login(e) {
         .catch((err) => console.log(err))
 }
 function getusers(email) {
-    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/users', {
+    fetch('http://127.0.0.1:5000/api/v2/users', {
         mode: 'cors'
     })
         .then((res) => res.json())

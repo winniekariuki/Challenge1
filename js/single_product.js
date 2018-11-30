@@ -11,7 +11,7 @@ function getsingleproduct(product_id) {
     console.log(product_id)
 
     
-    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/products/' + product_id)
+    fetch('http://127.0.0.1:5000/api/v2/products/' + product_id)
     .then((res) => res.json())
     .then((data) => {
         console.log(data)

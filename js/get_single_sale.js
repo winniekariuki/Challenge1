@@ -2,7 +2,7 @@ window.onload = get_single_sale()
 function get_single_sale(){
     let token = localStorage.getItem('token');
     let allsales = document.getElementById('single_sale_record')
-    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/sales', {
+    fetch('http://127.0.0.1:5000/api/v2/sales', {
         headers: {
             'access_token': token
         }

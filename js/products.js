@@ -2,7 +2,7 @@ window.onload = getproducts()
 function getproducts(){
     let token = localStorage.getItem('token');
     let allproducts = document.getElementById('attendantproducts')
-    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/products', {
+    fetch('http://127.0.0.1:5000/api/v2/products', {
         headers: {
             'access_token': token
         }

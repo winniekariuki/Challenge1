@@ -8,7 +8,7 @@ function addProduct(e) {
     let quantity = document.getElementById('quantity').value;
     let lower_inventory = document.getElementById('lower_inventory').value;
     console.log(lower_inventory)
-        fetch('https://mystoremanagerapp.herokuapp.com/api/v2/products', {
+        fetch('http://127.0.0.1:5000/api/v2/products', {
             method: 'POST',
             mode: 'cors',
             headers: {
