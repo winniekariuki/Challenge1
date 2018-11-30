@@ -1,11 +1,7 @@
 let modal = document.getElementsByClassName("modal")[0];
 let myModal = document.getElementById('myModal');
 
-// document.getElementById("info").addEventListener('click',getsingleproduct())
-// let singleproduct = document.getElementById('singleproduct')
 
-
-// alert()
 let token = localStorage.getItem('token');
 function getsingleproduct(product_id) {
     console.log(product_id)
