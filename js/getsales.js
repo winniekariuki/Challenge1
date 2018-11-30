@@ -2,7 +2,7 @@ window.onload = getsales()
 function getsales(){
     let token = localStorage.getItem('token');
     let allsales = document.getElementById('attendant_sale_records')
-    fetch('http://127.0.0.1:5000/api/v2/sales', {
+    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/sales', {
         headers: {
             'access_token': token
         }

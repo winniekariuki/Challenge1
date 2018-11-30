@@ -1,4 +1,3 @@
-
 document.getElementById('change').addEventListener('submit',modifyProduct)
 function modifyProduct(e) {
     // alert(product_id)
@@ -11,7 +10,7 @@ function modifyProduct(e) {
     let lower_inventory = document.getElementById('lower_inventory2').value;
 
     let token = localStorage.getItem('token');
-    fetch('http://127.0.0.1:5000/api/v2/products', {
+    fetch('https://mystoremanagerapp.herokuapp.com/api/v2/products', {
         headers: {
             'access_token': token
         }
@@ -34,7 +33,7 @@ function updateProduct(prod_id){
     let price = document.getElementById('price2').value;
     let quantity = document.getElementById('quantity2').value;
     let lower_inventory = document.getElementById('lower_inventory2').value;
-        fetch('http://127.0.0.1:5000/api/v2/products/'+prod_id, {
+        fetch('https://mystoremanagerapp.herokuapp.com/api/v2/products/'+prod_id, {
             method: 'PUT',
             mode: 'cors',
             headers: {
